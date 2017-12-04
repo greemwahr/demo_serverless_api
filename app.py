@@ -11,7 +11,7 @@ client = boto3.client('dynamodb')
 def hello():
   return "Hello World!"
 
-@app.route("/users/<string:userid>")
+@app.route("/users/<string:user_id>")
 def get_user(user_id):
   resp = client.get_item(
     TableName=USERS_TABLE,
