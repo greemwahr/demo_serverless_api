@@ -44,6 +44,6 @@ def create_user():
   )
 
   return jsonify({
-    'userId': user_id
+    'userId': user_id,
     'name': name
   })
