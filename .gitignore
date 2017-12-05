@@ -62,3 +62,6 @@ venv/
 
 # serverless dependency directory
 .serverless/
+
+# local development python cache
+__pycache__/
